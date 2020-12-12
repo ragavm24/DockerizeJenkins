@@ -1,5 +1,5 @@
 # Preparing bower files (only have bower in dev dependencies)
-FROM node
+FROM ubuntu
 
 RUN mkdir /app
 WORKDIR /app
